@@ -20,10 +20,10 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Grid.Column="0" Grid.Row="0" Content="Клиенты" Margin="20 30"/>
-            <Button Grid.Column="0" Grid.Row="1" Content="Товары" Margin="20 30"/>
-            <Button Grid.Column="0" Grid.Row="2" Content="Услуги" Margin="20 30"/>
-            <Button Grid.Column="0" Grid.Row="3" Content="Выход" Margin="20 30"/>
+            <Button Grid.Column="0" Grid.Row="0" Content="Клиенты" Margin="20 30" Click="Button_Click"/>
+            <Button Grid.Column="0" Grid.Row="1" Content="Товары" Margin="20 30" Click="Button_Click_1"/>
+            <Button Grid.Column="0" Grid.Row="2" Content="Услуги" Margin="20 30" Click="Button_Click_2"/>
+            <Button Grid.Column="0" Grid.Row="3" Content="Выход" Margin="20 30" Click="Button_Click_3"/>
         </Grid>
         <Frame Grid.Column="1" x:Name="MainFrame"/>
     </Grid>

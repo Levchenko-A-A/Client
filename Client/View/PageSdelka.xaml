@@ -9,6 +9,6 @@
       Title="PageSdelka">
 
     <Grid>
-        
+        <TextBlock>Sdelka</TextBlock>
     </Grid>
 </Page>
