@@ -1,4 +1,4 @@
-﻿using Client.View;
+﻿using ClientProject.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Client
+namespace ClientProject
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
