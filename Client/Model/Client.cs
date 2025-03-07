@@ -13,16 +13,16 @@ namespace ClientProject.Model
         [JsonIgnore]
         public int Clientid { get; set; }
         [JsonPropertyName("firstname")]
-        public string Firstname { get; set; } = null!;
+        public string Firstname { get; set; } = null;
         [JsonPropertyName("surname")]
-        public string? Surname { get; set; }
+        public string Surname { get; set; }
         [JsonPropertyName("lastname")]
-        public string Lastname { get; set; } = null!;
+        public string Lastname { get; set; } = null;
         [JsonPropertyName("compane")]
-        public string Company { get; set; } = null!;
+        public string Company { get; set; } = null;
         [JsonPropertyName("phone")]
-        public string Phone { get; set; } = null!;
+        public string Phone { get; set; } = null;
         [JsonPropertyName("city")]
-        public string City { get; set; } = null!;
+        public string City { get; set; } = null;
     }
 }
